@@ -16,7 +16,7 @@ import dev.sriram.riddle_romeo_login_api.Service.RiddleRomeoScoreService;
 
 
 @RestController
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://startling-cannoli-e7479c.netlify.app/")
 @RequestMapping("/api/v1/score")
 public class RiddleRomeoScoreController {
     
