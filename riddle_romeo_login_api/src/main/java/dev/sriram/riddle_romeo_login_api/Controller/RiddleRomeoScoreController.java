@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 import dev.sriram.riddle_romeo_login_api.Model.RiddleRomeoScoreModel;
 import dev.sriram.riddle_romeo_login_api.Service.RiddleRomeoScoreService;
 
+
 @RestController
 @CrossOrigin(origins = "*")
 @RequestMapping("/api/v1/score")
@@ -22,6 +23,7 @@ public class RiddleRomeoScoreController {
     @Autowired
     private RiddleRomeoScoreService riddleService;
 
+  
     @PostMapping(value = "/save")
     private String saveStudent(@RequestBody RiddleRomeoScoreModel user) {
 
