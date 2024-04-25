@@ -1,0 +1,9 @@
+dev\sriram\riddle_romeo_login_api\Model\RiddleRomeoScoreModel.class
+dev\sriram\riddle_romeo_login_api\Controller\RiddleRomeoUserController.class
+dev\sriram\riddle_romeo_login_api\Model\RiddleRomeoUserModel.class
+dev\sriram\riddle_romeo_login_api\Repository\RiddleRomeoScoreRepository.class
+dev\sriram\riddle_romeo_login_api\RiddleRomeoLoginApiApplication.class
+dev\sriram\riddle_romeo_login_api\Service\RiddleRomeoUserService.class
+dev\sriram\riddle_romeo_login_api\Service\RiddleRomeoScoreService.class
+dev\sriram\riddle_romeo_login_api\Controller\RiddleRomeoScoreController.class
+dev\sriram\riddle_romeo_login_api\Repository\RiddleRomeoUserRepo.class
