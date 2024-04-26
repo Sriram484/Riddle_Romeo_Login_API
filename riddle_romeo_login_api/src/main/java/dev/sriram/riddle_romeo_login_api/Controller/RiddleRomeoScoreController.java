@@ -1,5 +1,7 @@
 package dev.sriram.riddle_romeo_login_api.Controller;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -16,7 +18,7 @@ import dev.sriram.riddle_romeo_login_api.Service.RiddleRomeoScoreService;
 
 
 @RestController
-@CrossOrigin(origins = "https://zippy-zuccutto-56fe72.netlify.app/")
+@CrossOrigin(origins = "https://splendid-biscotti-29257e.netlify.app/")
 @RequestMapping("/api/v1/score")
 public class RiddleRomeoScoreController {
     
@@ -50,5 +52,12 @@ public class RiddleRomeoScoreController {
     @RequestMapping("/search/{id}")
     private RiddleRomeoScoreModel getStudents(@PathVariable(name = "id") String userid) {
         return riddleService.getUserByID(userid);
+    }
+    private static final Logger logger=LoggerFactory.getLogger(RiddleRomeoScoreController.class);
+    @GetMapping("/")
+    public String hello()
+    { 
+        logger.info("Info is printed");
+        return "Hello all good morning :)";
     }
 }
