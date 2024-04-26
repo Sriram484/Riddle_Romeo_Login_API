@@ -20,7 +20,7 @@ import dev.sriram.riddle_romeo_login_api.Model.RiddleRomeoUserModel;
 import dev.sriram.riddle_romeo_login_api.Service.RiddleRomeoUserService;
 
 @RestController
-@CrossOrigin(origins = "https://startling-cannoli-e7479c.netlify.app/")
+@CrossOrigin(origins = "https://classy-croissant-1db161.netlify.app/")
 @RequestMapping("/api/v1/userData")
 public class RiddleRomeoUserController {
     
